@@ -123,18 +123,15 @@
 
         <section class="formulario py-5">
             <div class="conteiner">
-                <from action="" class="mx-auo formularioC">
-                    <h2>Domicilios Maskot</h2>
-                    <input type="text" class="from-control md-3" placeholder="Escribe tu nombre" minlength="3" maxlength="30" required>
-                    <input type="email" class="from-control md-3" placeholder="Escribe tu correo" required>
-
-                    <input type="numbre" class="from-control md-3" placeholder="Cantidad" required>
-
-                    <input type="text" class="from-control md-3" placeholder="Direccion de estrega" minlength="5" maxlength="80" required>
-
+                <from action="" class="mx-auto formularioC">
+                    <h2>Domicilios MASKOT</h2>
+                    <input type="text" class="form-control mb-3" placeholder="Escribe tu nombre" minlength="3" maxlength="30" required>
+                    <input type="email" class="form-control mb-3" placeholder="Escribe tu correo" required>
+                    <input type="number" class="form-control mb-3" placeholder="Cantidad" min="1" max="20">
+                    <input type="text" class="form-control mb-3" placeholder="Dirección de entrega" min="5" max="30" required>
                     <textarea name="" class="from-control" rows="4" id="" maxlength="150" placeholder="Observaciones adicionales"></textarea>
-
                     <button type="submit" class="btn btn-solicitar">Solicitar</button>
+
                 </from>
             </div>
         </section>
@@ -147,7 +144,13 @@
 
         <section class="conteiner py-5">
             <h2  class="titulo">Tienda de mascotas</h2>
-            <div class="mapa mapa-contenedor"></div>
+            <div class="mapa mapa-contenedor">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63628.35508705395!2d-74.15784313126733!3d4.63468570963938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b679acf7cc5%3A0xa73fc7ab61161cf9!2sSENA%20complejo%20sur%20Centro%20de%20Electricidad%20Electr%C3%B3nica%20y%20Telecomunicaciones!5e0!3m2!1ses!2sco!4v1732032935633!5m2!1ses!2sco"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
         </section>
     </main>
     
