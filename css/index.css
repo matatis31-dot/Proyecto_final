@@ -5,7 +5,7 @@
 }
 
 :root{
-    --blanco: #fffceb;
+    --blanco: #dad4d4;
     --rojo: #DD403a;
     --negro: #3e363f;
 }
@@ -70,4 +70,57 @@ body{
     background-color: var(--blanco);
     color: var(--rojo);
     border: 1px solid var(--rojo);
+}
+
+.modal-login{
+    background-color: var(--blanco);
+    border-radius: 12px;
+}
+
+.modal-login h2{
+    color: var(--negro);
+    font-weight: 700;
+}
+
+.btn-login{
+    background-color: var(--rojo);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-login:hover{
+    background-color: red;
+    color: white;
+}
+
+.link-login{
+    color: var(--rojo);
+    text-decoration: none;
+}
+
+.banner{
+    min-height: 350px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: darken;
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner p{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
 }
