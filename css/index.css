@@ -124,3 +124,32 @@ body{
     font-weight: 700;
     text-align: center;
 }
+
+.texto-inicio{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.nombre{
+    color: var(--rojo);
+}
+
+.tarjeta{
+    border: none;
+    border-radius: 0 0 35px 35px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.tarjeta:hover{
+    transform:scale(1.03);
+}
+
+.img-tarjeta{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: auto;
+}
