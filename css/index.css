@@ -302,5 +302,9 @@ footer i{
     }
     .btn-login-nav{
         width: 100%;
+        margin-top: 8px;
+    }
+    footer{
+        padding-top: 80px;
     }
 }
