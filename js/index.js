@@ -4,7 +4,7 @@
 // && 
 // Swal.fire() modernos
 
-// wnow
+// wnow.local.href
 
 document.querySelector('.btn-ingresar').addEventListener('click', function(event){
 event.preventDefault();
