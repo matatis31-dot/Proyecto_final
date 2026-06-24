@@ -2,7 +2,7 @@ $(document).ready(function () {
   $("#tablaUsuarios").DataTable({
     language: {
       search: "Buscar",
-      lengthMenu: "Mostrar _Menú_ Registro",
+      lengthMenu: "Mostrar _MENU_ Registro",
       info: "Mostrar _START_ a _END_ de _TOTAL_ registros",
       infoEmpty: "Mostrando 0 a 0 de 0 registros",
       zeroRecords: "No se encontraron resultados",

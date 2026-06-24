@@ -334,7 +334,14 @@ body {
         gap: 15px;
     }
 }
-
+#tablaUsuarios thead th{
+ 
+background-color: black;
+color: white;
+text-align: center;
+vertical-align: middle;
+ 
+}
 
 @media screen and (max-width: 768px) {
 
