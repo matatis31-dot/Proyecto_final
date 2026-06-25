@@ -33,8 +33,17 @@ if (email === 'admin@maskot.com' && password == '12345') {
     }).then(() =>{
         window.location.href='Administrador/dashboard.html';
 
-    })
-}else{
+    })}
+    else if(email === 'cliente@maskot.com' && password == '98765'){
+        Swal.fire({
+        icon: 'success',
+        title: 'Inicio Exitoso',
+        text: 'Bienvenido Cliente',
+        confirmButtonColor: '#800e13'
+    }).then(() =>{
+        window.location.href='Cliente/cliente.html';
+
+    })}else{
     Swal.fire({
         icon:"error",
         title: "Credenciales Incorrectas",
